@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae6ba22c157317429e33bfb39f954f9, type: 3}
+  m_Name: MergeItemConfig
+  m_EditorClassIdentifier: 
+  MergeGame:
+    time_claim_resource: 0
+    time_spawn_items: 0
+    cell_count: 0
+    start_item_count: 0
+    deductible_level_item: 0
+  MergeItemEntities:
+  - id: 0
+    name: 
+    sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    level: 0
+    base_cost: 1
+    cost_math: 2
+    energy_gen: 1
+  - id: 0
+    name: 
+    sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    level: 1
+    base_cost: 1
+    cost_math: 2
+    energy_gen: 1
+  - id: 0
+    name: 
+    sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    level: 2
+    base_cost: 1
+    cost_math: 2
+    energy_gen: 1
+  Shop:
+    max_count_items: 12
+    bonus_count_items: 1
+    free_rune_time_min: 1
+    min_free_rune: 1
+    max_free_rune: 0
+  MergeSpineRewardsConfig:
+    merge_spine_rewards:
+    - reward: def_reward:60
+      chance: 0
+    cost_spine: 0
